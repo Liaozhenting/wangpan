@@ -1,0 +1,141 @@
+
+
+.oprate-table {
+    -ms-flex: 1 1;
+    flex: 1 1;
+    position: relative;
+}
+
+.oprate-table .oprate-table-header {
+    height: 56px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.oprate-table .oprate-table-header div div {
+    line-height: 32px;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.oprate-table .oprate-table-header div div:last-child {
+    margin-left: 40px;
+}
+
+.oprate-table .oprate-table-header .right {
+    float: right;
+}
+
+.oprate-table .oprate-table-header .right .ant-input-affix-wrapper {
+    width: 150px !important;
+}
+
+.oprate-table .oprate-table-breadcrumb {
+    height: 96px;
+    padding-left: 20px;
+    background: #FAFBFC;
+}
+
+.oprate-table .oprate-table-breadcrumb .breadcrumb {
+    margin-top: 30px;
+}
+
+.oprate-table .oprate-table-breadcrumb .breadcrumb .breadcrumb-line {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.oprate-table .file-list {
+    width: 100%;
+    line-height: 40px;
+}
+
+.oprate-table .file-list ul {
+    height: 40px;
+    display: block;
+    padding-left: 35px;
+}
+
+.oprate-table .file-list ul li {
+    float: left;
+    display: block;
+}
+
+.oprate-table .file-list ul .file-name {
+    width: 34%;
+}
+
+.oprate-table .file-list ul .file-size {
+    width: 8%;
+}
+
+.oprate-table .file-list ul .file-right {
+    width: 8%;
+}
+
+.oprate-table .file-list ul .file-edit {
+    width: 10%;
+}
+
+.oprate-table .file-list ul .file-final-time {
+    width: 20%;
+}
+
+.oprate-table .file-list ul .file-create-time {
+    width: 20%;
+}
+
+.oprate-table .file-list .file-list-item {
+    width: 100%;
+    float: left;
+    padding-left: 35px;
+    position: relative;
+}
+
+.oprate-table .file-list .file-list-item:hover, .oprate-table .file-list .file-list-item.checked {
+    background: lightblue;
+}
+
+.oprate-table .file-list .file-list-item>div {
+    height: 40px;
+    display: inline-block;
+}
+
+.oprate-table .file-list .file-list-item span.ant-checkbox {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.oprate-table .file-list .file-list-item .file-list-name {
+    width: 34%;
+}
+
+.oprate-table .file-list .file-list-item .file-list-size {
+    width: 8%;
+}
+
+.oprate-table .file-list .file-list-item .file-list-right {
+    width: 8%;
+}
+
+.oprate-table .file-list .file-list-item .file-list-edit {
+    width: 10%;
+}
+
+.oprate-table .file-list .file-list-item .file-list-final-time {
+    width: 20%;
+}
+
+.oprate-table .file-list .file-list-item .file-list-create-time {
+    width: 20%;
+}
+
+
+
