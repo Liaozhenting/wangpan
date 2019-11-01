@@ -13,4 +13,4 @@ cd baiduyun
 npm i && npm start
 ```
 打开localhost:3000
-![Alt text](/show.png)
+![Alt text](./show.png)
